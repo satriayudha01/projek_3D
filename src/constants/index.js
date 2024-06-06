@@ -4,17 +4,18 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  php,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  sql,
+  bootstrap,
+  java,
+  laravel,
+  xampp,
   git,
   figma,
-  docker,
+  // docker,
+  cpp,
   meta,
   starbucks,
   tesla,
@@ -22,7 +23,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  githubb,
 } from "../assets";
 
 export const navLinks = [
@@ -73,32 +74,32 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "PHP",
+    icon: php,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "SQL",
+    icon: sql,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "LARAVEL",
+    icon: laravel,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "XAMPP",
+    icon: xampp,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Github",
+    icon: githubb,
   },
   {
     name: "git",
@@ -108,9 +109,13 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
   {
-    name: "docker",
-    icon: docker,
+    name: "cpp",
+    icon: cpp,
   },
 ];
 
